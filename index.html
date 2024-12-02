@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasang Jaringan</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo" id="wifi"
+        >Pasang <span>Jaringan</span><i data-feather="wifi"></i
+      ></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#paket">Paket</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Pasang <span>Jaringan</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          maxime!
+        </p>
+        <a href="#" class="cta">Pesan Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-bg.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih jasa kami?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+            laudantium ratione ad distinctio sunt pariatur debitis eligendi
+            magni ipsa nulla.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            hic optio assumenda et explicabo eaque incidunt rem veniam
+            laudantium nesciunt.
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            hic optio assumenda et explicabo eaque incidunt rem veniam
+            laudantium nesciunt.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="paket" class="paket">
+      <div class="paket2">
+        <h2><span>Paket</span> Kami</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus
+          tempora repellat at debitis quidem?
+        </p>
+      </div>
+      <div class="paket1">
+        <div class="row">
+          <div class="kartu-paket">
+            <h3 class="kartu-paket-title">Paket D-Link</h3>
+            <img src="img/pk2.jpg" alt="paket-dlink" class="kartu-paket-img" />
+            <h3 class="kartu-paket-title">IDR 1.600.000</h3>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 D-Link DIR-2150 AC2100 2100 Mbps
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >2 D-Link DAP 2360 Gigabit 300 Mbps
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 D-Link R15 EAGLE PRO AI AX1500 1200 Mbps
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Bulan Garansi Pemulihan
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >Harga Sudah Termasuk Biaya Jasa Pemasangan Dan Konfigurasi
+            </ol>
+          </div>
+        </div>
+        <div class="row">
+          <div class="kartu-paket">
+            <h3 class="kartu-paket-title">Paket Mikrotik</h3>
+            <img src="img/pk1.jpg" alt="paket-dlink" class="kartu-paket-img" />
+            <h3 class="kartu-paket-title">IDR 8.500.000</h3>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Mikrotik RB2011UiAS-2HND-IN
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >2 Router RBD52G-5HacD2HnD-TC
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Mikrotik hAP ax lite L41G-2axD
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Bulan Garansi Pemulihan
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >Harga Sudah Termasuk Biaya Jasa Pemasangan Dan Konfigurasi
+            </ol>
+          </div>
+        </div>
+        <div class="row">
+          <div class="kartu-paket">
+            <h3 class="kartu-paket-title">Paket Tp-Link</h3>
+            <img src="img/pk3.jpg" alt="paket-dlink" class="kartu-paket-img" />
+            <h3 class="kartu-paket-title">IDR 1.300.000</h3>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Tp-Link WR844N 300Mbps
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >2 Tp-Link TL-WR840N 300Mbps
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Tp-Link TL-WR845N : 300Mbps
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >1 Bulan Garansi Pemulihan
+            </ol>
+            <ol class="harga-paket">
+              <i data-feather="check-circle"></i
+              >Harga Sudah Termasuk Biaya Jasa Pemasangan Dan Konfigurasi
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section end -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+        fugiat?
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.3753636941283!2d106.87301005604304!3d-6.474048069714064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c031a428f1ab%3A0x82fb39ed2eda3627!2sSMK%20TEKNIK%20INFORMATIKA%20ANNISA%202!5e0!3m2!1sid!2sid!4v1732075943061!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <table>
+            <tr>
+              <td>
+                <div class="input-group">
+                  <i data-feather="user"></i>
+                  <input type="text" placeholder="Nama" id="subject" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="input-group">
+                  <i data-feather="mail"></i>
+                  <input type="text" placeholder="E-mail" id="email_subject" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="input-group">
+                  <i data-feather="phone"></i>
+                  <input type="text" placeholder="Nomor HP" id="notel" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="input-group">
+                  <i data-feather="inbox"></i>
+                  <textarea
+                    name=""
+                    id="messages"
+                    placeholder="Pesan Anda"
+                  ></textarea>
+                </div>
+              </td>
+            </tr>
+            <button
+              type="submit"
+              onclick="sendMail(); return false;"
+              class="btn"
+            >
+              Kirim Pesan
+            </button>
+          </table>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href=""><i data-feather="instagram"></i></a>
+        <a href="https://wa.me/6281295217976" target="_blank"
+          ><i data-feather="message-circle"></i>Hubungi Kami
+        </a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#paket">Paket</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">SammyHayvia</a>. | &copy; 2025</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Js -->
+    <script src="js/srcipt.js"></script>
+    <script>
+      function sendMail() {
+        const subject = document.querySelector("#subject").value;
+        const email_subject = document.querySelector("#email_subject").value;
+        const notel = document.querySelector("#notel").value;
+        const messages = document.querySelector("#messages").value;
+
+        if (!subject || !email_subject || !notel || !messages) {
+          Swal.fire({
+            title: "Terjadi Kesalahan",
+            text: "Silahkan Isi Semua Kolom",
+            icon: "Peringatan!",
+          });
+          return; // Stop if validation fails
+        }
+        emailjs.init("eNBsndCXyeeQat2v1");
+
+        var params = {
+          subject: subject,
+          email_subject: email_subject,
+          notel: notel,
+          messages: messages,
+        };
+
+        var seviceID = "service_z3vwzd8";
+        var templateID = "template_fuh9bsp";
+
+        emailjs
+          .send(serviceID, templateID, params)
+          .then((res) => {
+            Swal.fire({
+              title: "Terkirim!",
+              text: "Pesanmu Telah Terkirim!",
+              icon: "success",
+            });
+            // Reset form setelah pengiriman berhasil
+            document.querySelector("form").reset();
+          })
+          .catch((err) => {
+            Swal.fire({
+              title: "Gagal!",
+              text: "Pesanmu Gagal Terkirim!",
+              icon: "error",
+            });
+          });
+      }
+    </script>
+  </body>
+</html>
